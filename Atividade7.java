@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Atividade5 {
+public class Atividade7 {
 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -10,22 +10,22 @@ public class Atividade5 {
 
             
             while (op!=5) {
-            System.out.println("1 - Caixa de Papelão");
-            System.out.println("2 - Sacola Plástica");
-            System.out.println("3 - Embalagem de Vidro");
+            System.out.println("1 - Mochila Escolar");
+            System.out.println("2 - Mochila de Viagem");
+            System.out.println("3 - Mochila Esportiva");
             System.out.println("4 - Sair");
             System.out.print("Escolha uma Caixa: ");
             op = sc.nextInt();
             
             switch (op) {
                 case 1:
-                    System.out.println("Caixa de Papelão: Ideal para transporte e armazenamento.");
+                    System.out.println("Mochila Escolar: Compacta e ideal para estudantes.");
                 break;
                 case 2:
-                    System.out.println("Sacola Plástica: Leve e prática, mas pouco sustetável.");
+                    System.out.println("Mochila de Viagem: Espaçosa, ideal para longas jornadas.");
                 break;
                 case 3:
-                    System.out.println("Embalagem de Vidro: Resistente e reutiliável.");
+                    System.out.println("Mochila Esportiva: Leve, resistente e ergonômica.");
                 break;
                 case 4:
                     System.out.println("Encerrando...");
