@@ -1,3 +1,4 @@
+package Produto;
 public class Produto {
 
         private String nome;
